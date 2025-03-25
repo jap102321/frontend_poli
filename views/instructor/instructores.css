@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contenedor-principal {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.instructores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    gap: 20px;
+}
+
+.instructor {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.instructor img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.instructor h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
