@@ -5,7 +5,32 @@ body {
     background-color: #1e1e2f; /* Fondo oscuro relajante */
     color: #e0e0e0; /* Texto claro */
 }
+header {
+    background-color: #2a2a3d; /* Fondo oscuro para el encabezado */
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
 
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5a623; /* Color destacado */
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d4881c; /* Color más oscuro al pasar el mouse */
+}
 .contenedor-principal {
     width: 90%;
     margin: 20px auto;
@@ -17,7 +42,6 @@ h1 {
     font-weight: bold; /* Negrita */
     margin-bottom: 20px;
     color: #f5a623; /* Color destacado */
-    text-transform: uppercase; /* Texto en mayúsculas */
     letter-spacing: 2px; /* Espaciado entre letras */
 }
 

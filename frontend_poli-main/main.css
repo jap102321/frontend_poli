@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 .hero-logo img {
-    width: 40%; /* Ajusta el tamaño del logo */
+    width: 100%; /* Ajusta el tamaño del logo */
     max-width: 300px; /* Tamaño máximo */
     border-radius: 15px; /* Bordes redondeados */
 }
@@ -65,7 +65,6 @@ nav a:hover {
     font-size: 2.2em; /* Ajusta el tamaño del título */
     margin-bottom: 10px; /* Reduce el espacio inferior */
     color: #f5a623; /* Color destacado */
-    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -80,7 +79,6 @@ nav a:hover {
     font-size: 1.8em; /* Ajusta el tamaño del subtítulo */
     margin-bottom: 20px; /* Reduce el espacio inferior */
     color: #f5a623; /* Color destacado */
-    text-transform: uppercase;
     letter-spacing: 1.5px;
 }
 .contact {
