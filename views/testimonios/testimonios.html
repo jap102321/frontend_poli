@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./testimonios.css">
+    <title>Testimonios</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../courses/cursos.html">Nuestros cursos</a></li>
+                <li><a href="../instructor/instructors.html">Instructores</a></li>
+                <li><a href="./testimonios.html">Testimonios</a></li>
+                <li><a href="..//registro/registro.html">Registrate</a></li>
+                <li><a href="../iniciosesion/iniciosesion.html">Inicio de sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Testimonios</h1>
+            <p>Lee lo que nuestros clientes tienen que decir sobre nosotros</p>
+        </section>
+        <section class="testimonios">
+            <div class="testimonio">
+                <p>"El curso de yoga cambió mi vida. Ahora me siento más relajada y en paz conmigo misma."</p>
+                <h3>- Ana María</h3>
+            </div>
+            <div class="testimonio">
+                <p>"La meditación guiada me ayudó a reducir el estrés y mejorar mi concentración."</p>
+                <h3>- Carlos López</h3>
+            </div>
+            <div class="testimonio">
+                <p>"Gracias al curso de nutrición, aprendí a llevar una dieta balanceada y saludable."</p>
+                <h3>- Laura Gómez</h3>
+            </div>
+        </section>
+        <section class="formulario">
+            <h2>Envía tu testimonio</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                
+                <label for="mensaje">Testimonio:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu testimonio aquí..." required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

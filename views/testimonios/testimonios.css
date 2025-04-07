@@ -1,14 +1,16 @@
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    font-family: 'Arial Narrow Bold', sans-serif; /* Fuente moderna */
-    font-size: 16px; /* Tamaño de fuente estándar */
+    padding: 0;
     background-color: #1e1e2f; /* Fondo oscuro relajante */
     color: #e0e0e0; /* Texto claro */
 }
+
 header {
     background-color: #2a2a3d; /* Fondo oscuro para el encabezado */
     padding: 10px 0;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -31,59 +33,85 @@ nav a {
 nav a:hover {
     color: #d4881c; /* Color más oscuro al pasar el mouse */
 }
-.contenedor-principal {
-    width: 90%;
-    margin: 20px auto;
+
+.hero {
     text-align: center;
+    padding: 40px 20px;
+    background-color: #2a2a3d; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
 }
 
-h1 {
-    font-size: 3em; /* Tamaño más grande */
-    font-weight: bold; /* Negrita */
-    margin-bottom: 20px;
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
     color: #f5a623; /* Color destacado */
-    letter-spacing: 2px; /* Espaciado entre letras */
 }
 
-.instructores {
+.hero p {
+    font-size: 1.2em;
+    color: #c0c0c0; /* Texto más claro */
+}
+
+.testimonios {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas */
     gap: 20px;
+    padding: 20px;
 }
 
-.instructor {
+.testimonio {
     background-color: #2a2a3d; /* Fondo oscuro para las tarjetas */
     border: 1px solid #444; /* Borde sutil */
     border-radius: 10px; /* Bordes redondeados */
     padding: 15px;
+    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
-    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.instructor:hover {
-    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-}
-
-.instructor img {
-    width: 100%; /* Ajusta al ancho del contenedor */
-    height: 200px; /* Tamaño uniforme */
-    object-fit: cover; /* Ajusta la imagen sin distorsión */
-    border-radius: 10px; /* Bordes redondeados */
-    margin-bottom: 10px;
-}
-
-.instructor h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #f5a623; /* Color destacado */
-    text-transform: capitalize; /* Primera letra en mayúscula */
-}
-
-.instructor p {
+.testimonio p {
     font-size: 1em;
-    line-height: 1.5;
     color: #c0c0c0; /* Texto más claro */
+    margin-bottom: 10px;
+}
+
+.testimonio h3 {
+    font-size: 1.2em;
+    color: #f5a623; /* Color destacado */
+}
+
+.formulario {
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f5a623; /* Color destacado */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-size: 1em;
+    color: #e0e0e0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #2a2a3d;
+    color: #e0e0e0;
+    font-size: 1em;
 }
 
 button {
@@ -95,7 +123,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 20px;
 }
 
 button:hover {
